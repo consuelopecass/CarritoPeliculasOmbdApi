@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <title>Compra tu película</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/797d798ad7.js" crossorigin="anonymous"></script>
+    <!-- Mi estilo -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Inicio Navbar -->
+    <nav class="navbar">
+        <img src="assets/img/icons8-streaming-movies-64.png" alt="Logo películas gratis">
+        <div class="navbarText">
+            <h1>Películas Online Gratis</h1>
+        </div>
+    </nav>
+    <!-- Fin Navbar -->
+
+    <!-- Inicio Main -->
+    <main class="main">
+        <div class="main_imagen">
+            <img src="assets/img/cinema.jpeg" alt="Imagen cine peliculas gratis">
+        </div>
+        <div class="content">
+            <div class="content_titulo">
+                <h2>Encuentra tu Pelicula</h2>
+            </div>
+            <div class="request">
+                <h3 class="request__text">Ingresa el nombre de tu película</h3>
+                <input id="input_search" class="input_search" type="text" name="">
+                <button id="search" class="request__btn btn-search">Buscar</button>
+                <button id="clean" class="request__btn btn-clean">Limpiar</button>
+            </div>
+        </div>
+    </main>
+    <!-- Fin Main -->
+
+    <!-- Inicio Card -->
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="peliInfo" id="peliInfo"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Card -->
+
+    <!-- Inicio Footer -->
+    <footer class="footer">
+        <small>&copy; 2021 | Consuelo Peña Sepúlveda | Todos los derechos reservados</small>
+    </footer>
+    <!-- Fin Footer -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
