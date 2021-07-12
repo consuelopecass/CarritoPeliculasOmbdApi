@@ -60,7 +60,7 @@ function limpiar() {
 function getPelicula(titulo) {
     $.ajax({
         type: "GET",
-        url: `http://www.omdbapi.com/?i&apikey=4213517b&s=${titulo}`,
+        url: `https://www.omdbapi.com/?i&apikey=4213517b&s=${titulo}`,
         success: function(pelicula) {
             $("#peliInfo").empty();
             $('#peliInfo').append(generarCard(pelicula));
